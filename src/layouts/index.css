@@ -11,8 +11,8 @@ a{color: #FE2C6A;
 }
 
 .Hero {
-  background: url('../images/wallpaper3.jpg');  
-  height: 920px;
+  background: url('../images/wallpaper7.jpg');  
+  height: 700px;
   background-size: cover;
   background-position: center;
 }
@@ -20,7 +20,7 @@ a{color: #FE2C6A;
 .HeroGroup {
   margin: 0 auto;
   max-width: 500px;
-  padding: 180px 50px;
+  padding: 110px 50px;
   text-align: center;
 }
 
@@ -38,12 +38,12 @@ a{color: #FE2C6A;
 }
 
 .Hero a{
-  color: white;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-size: 17px;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 9px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.0);
+  border: 1px solid white;
+  padding: 12px 24px;
+  border-radius: 30px;
 
 }
