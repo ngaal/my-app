@@ -3,9 +3,13 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi guys</h1>
-    <p>Fuck, I started to code. Code as a designer!</p>
-    <Link to="/page-2/">Go to page 2</Link>
+   <div className="Hero">
+    <div className="HeroGroup">
+      <h1>Hi guys, my name is Norbi</h1>
+      <p>I'm a product designer from Budapest. Holy shit, I started to code. Code as a cool designer!</p>
+      <Link to="/page-2/">Download CV</Link>
+    </div>    
+   </div>
   </div>
 )
 
