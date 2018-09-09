@@ -5,8 +5,8 @@ const IndexPage = () => (
   <div>
    <div className="Hero">
     <div className="HeroGroup">
-      <h1>Hi guys, my name is Norbi</h1>
-      <p>I'm a product designer from Budapest. Holy shit, I started to code. Code as a cool designer!</p>
+      <h1>Design Hub</h1>
+      <p>Digitális terméktervezés A-Z-ig. Kutatás, design, kód</p>
       <Link to="/page-2/">Download CV</Link>
     </div>    
    </div>

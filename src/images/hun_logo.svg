@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.2%" y="-4.2%" width="116.5%" height="117.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="18" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.349702381   0 0 0 0 0.349702381   0 0 0 0 0.349702381  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#F71E7D" offset="0%"></stop>
+            <stop stop-color="#DD3F2A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M223.783215,334 L223.783215,201 L176.216785,225.767267 L176.216785,290.140578 L92,334 L92,109 L176.216785,67 L176.216785,173.838216 L223.231256,150.276618 C223.569585,150.107062 223.783215,149.761044 223.783215,149.382605 L223.783215,109 L308,67 L308,290.140578 L223.783215,334 Z" id="path-3"></path>
+        <filter x="-12.5%" y="-5.6%" width="125.0%" height="120.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.472417092   0 0 0 0 0.472417092   0 0 0 0 0.472417092  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F9F9F9" x="0" y="0" width="400" height="400"></rect>
+        <g id="H" filter="url(#filter-1)">
+            <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="0" width="400" height="400"></rect>
+            <g id="Shape" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

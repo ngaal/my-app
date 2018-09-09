@@ -20,7 +20,7 @@ a{color: #FE2C6A;
 .HeroGroup {
   margin: 0 auto;
   max-width: 500px;
-  padding: 110px 50px;
+  padding: 150px 50px;
   text-align: center;
 }
 
@@ -46,4 +46,21 @@ a{color: #FE2C6A;
   padding: 12px 24px;
   border-radius: 30px;
 
+}
+
+@media (max-width: 640px) {
+
+  .HeroGroup { 
+    padding: 150px 25px;
+  }
+
+  .Hero h1{
+    font-size: 52px;
+
+  }
+
+  .Hero p{
+    font-size: 20px;
+    padding: 0 0 25px 0;
+  }
 }
