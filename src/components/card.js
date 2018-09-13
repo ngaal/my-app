@@ -10,4 +10,4 @@ const card = props => (
     </div>
 )
 
-export default Card
+export default card
