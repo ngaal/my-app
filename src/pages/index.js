@@ -21,7 +21,7 @@ const IndexPage = () => (
     <div className="HeroGroup">
       <h1>Design Hub</h1>
       <p>Digitális terméktervezés A-Z-ig. Kutatás, design, kód</p>
-      <Link to="/page-2/">Download CV</Link>
+      <Link to="/page-2/">Megnézem az introt</Link>
     </div>    
    </div>
   </div>
