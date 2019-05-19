@@ -3,14 +3,21 @@
     width: 100%;
     padding: 50px 0px;
     z-index: 100;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
 }
 
+.HeaderScrolled {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    backdrop-filter: blur (20px);
+}
+
 .HeaderGroup {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     align-items: center;
     justify-items: center;
 }
@@ -50,10 +57,9 @@
     .HeaderGroup {
         grid-template-columns: repeat(4, auto);
     }
-    
+
     .Header a:nth-child(3){
         display: none;
     }
 
 }
-
