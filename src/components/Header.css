@@ -44,8 +44,7 @@
 .Header button:hover{
     background: white;
     color: rgb(226, 74, 99);
-    transform: translateY(3px);
-
+    transform: translateY(-3px);
 }
 
 @media (max-width: 640px) {

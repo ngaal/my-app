@@ -8,7 +8,10 @@ const Card = props => (
         <p className="Description">{props.description}</p>
         <p className="Price"><span>{props.price}</span></p>
         <img src={props.image}></img>
-    </div>
+
+    </div> 
+      
+
 )
 
 export default Card
