@@ -51,7 +51,6 @@ const IndexPage = () => (
     </div>
   </div>
   <div> 
-  <h1> workshopok </h1>
   </div>
   <Section 
     image={require('../images/wallpaper-grey.png')}
