@@ -27,7 +27,7 @@ render() {
   return (
     <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
       <div className="HeaderGroup">
-        <Link to="/"><img src={require('../images/hun_logo.svg')} width="100" /></Link>
+        <Link to="/"><img src={require('../images/hun_logo.svg')} width="110" /></Link>
         <Link to="/courses">Célunk</Link>
         <Link to="/downloads">Workshops</Link>
         <Link to="/workshops">Blog</Link>
